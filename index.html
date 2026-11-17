@@ -166,12 +166,8 @@ details[open] .plus{transform:rotate(45deg)}
 /* footer */
 footer{background:#010B1F;padding:48px 24px;border-top:3px solid #D7263D}
 .foot{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:flex-start}
-.legal{margin-top:28px;color:#8193B3;font-size:13px;line-height:1.6;padding-bottom:72px}
+.legal{margin-top:28px;color:#8193B3;font-size:13px;line-height:1.6}
 
-/* barra fija */
-.sticky{position:sticky;bottom:16px;z-index:20;display:flex;justify-content:center;padding:0 16px;pointer-events:none;margin-top:-88px}
-.sticky-in{pointer-events:auto;display:flex;align-items:center;gap:18px;padding:10px 10px 10px 22px;border-radius:999px;background:rgba(2,18,48,.92);border:1px solid #3686F7;box-shadow:0 12px 32px rgba(0,0,0,.45)}
-.sticky-txt{display:flex;flex-direction:column;line-height:1.2}
 
 @media (max-width:760px){
   .tree,.tag,nav a.lnk{display:none}
@@ -180,7 +176,6 @@ footer{background:#010B1F;padding:48px 24px;border-top:3px solid #D7263D}
   .steps{grid-template-columns:minmax(0,1fr);gap:28px}
   .steps::before{left:31px;right:auto;top:32px;bottom:32px;border-top:0;border-left:3px dashed #FFC94A}
   .step{flex-direction:row;align-items:flex-start}
-  .sticky-txt{display:none}
   .prize-big{flex-basis:100%}
   .card{padding:22px}
 }
@@ -490,17 +485,6 @@ footer{background:#010B1F;padding:48px 24px;border-top:3px solid #D7263D}
   </div>
   <div class="wrap legal">Sorteo sujeto a bases y condiciones. [Nº de autorización del sorteo] · Imágenes ilustrativas.</div>
 </footer>
-
-<div class="sticky">
-  <div class="sticky-in">
-    <span class="logo sticky-txt" style="width:40px;height:40px" aria-hidden="true"></span>
-    <div class="sticky-txt">
-      <span style="font-weight:800;font-size:16px">Mystery Box Navideña</span>
-      <span style="font-size:14px;color:#C9D7EE"><span class="num">$50.000</span> · faltan <span class="num js-left" style="color:#FFC94A;font-weight:700">2.500</span> cajas para el sorteo</span>
-    </div>
-    <a href="#comprar" class="btn-cta" style="min-height:48px;font-size:17px;padding:0 22px">Comprar caja</a>
-  </div>
-</div>
 
 <script>
 /* ===== CONFIGURACIÓN — editá estos valores ===== */
